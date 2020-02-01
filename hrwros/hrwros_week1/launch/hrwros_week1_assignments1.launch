@@ -1,0 +1,5 @@
+<?xml verison ="1.0"?>
+<launch>
+	<node pkg = "hrwros_week1" name = "compute_box_height" type = "week1_assignment1.py" output = "screen"/>
+	<node pkg = "hrwros_week1" name = "sensor_info_publisher" type = "sensor_info_publisher.py" output = "screen"/>
+</launch>
